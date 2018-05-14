@@ -1,3 +1,5 @@
+package com.kcs.days.first;
+
 import java.util.Scanner;
 
 public class _11_05_18_1_Uzduotis {
