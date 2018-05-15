@@ -1,6 +1,5 @@
-package com.kcs.days.second;
+package com.kcs.days.third;
 
-import java.sql.SQLOutput;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
