@@ -39,11 +39,9 @@ public class TreciaUzduotis {
             }
         }
     }
-
     private void triangle(Scanner scanner){
         System.out.println("iveskite a statini");
         double a = getCorrectNumber(scanner);
-
         System.out.println("iveskite b statini");
         double b = getCorrectNumber(scanner);
 
@@ -52,17 +50,13 @@ public class TreciaUzduotis {
     private void staciakampis (Scanner scanner){
         System.out.println("iveskite a statini");
         double a = getCorrectNumber(scanner);
-
         System.out.println("iveskite b statini");
         double b = getCorrectNumber(scanner);
-
         System.out.println("Staciakampio plotas: " + (a * b));
     }
-
     private void kvadratas (Scanner scanner){
         System.out.println("iveskite a statini");
         double a = getCorrectNumber(scanner);
-
         System.out.println("kvadrato plotas: " + Math.pow(a, 2));
     }
     private void apskritimas (Scanner scanner){
@@ -70,7 +64,6 @@ public class TreciaUzduotis {
         double a = getCorrectNumber(scanner);
         System.out.println("apskritimo plotas: " + Math.PI* Math.pow(a, 2));
     }
-
 
     private static double getCorrectNumber(Scanner scanner){
         double result;
